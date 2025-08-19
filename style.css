@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f8f9;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    min-height: 100%;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #cacdce;
+}
+
+.headerF {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    background-color: #ffffff;
+}
+
+.header1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 6px;
+    width: 18%;
+    border-right: 1px solid #cacdce;
+}
+
+.linkedIn-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.search-container {
+    width: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #f6f8f9;
+}
+
+/* main {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.headerF {
+    display: flex;
+    align-items: center;      /* vertically center content */
+    /* spread divs across full width */
+    /* gap: 15px;                /* spacing between divs */
+         /* top-bottom, left-right padding */
+/* }
+
+.header1, .search-container, .h-word, .icons, .header2 {
+    flex: 1;                  each div grows equally
+}
+
+.h-word {
+    flex: 2;                  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header1 img,
+.icons img,
+.header2 img {
+    display: block;
+    max-height: 40px;         
+    width: auto;
+}
+
+.headerS {
+    margin-top: 1px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 20px;
+}  */ 
