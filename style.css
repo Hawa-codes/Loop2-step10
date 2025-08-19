@@ -31,14 +31,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding: 6px;
+    padding: 18px;
     width: 18%;
     border-right: 1px solid #cacdce;
 }
 
 .linkedIn-icon {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
 }
 
 .search-container {
@@ -46,7 +46,88 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-right: 1px solid #f6f8f9;
+    border-right: 1px solid #cacdce;
+}
+
+.search-input {
+    width: 120px;
+    height: 20px;
+    border: 1px solid #cacdce;
+    border-radius: 7px;
+    font-size: 12px;
+}
+
+.h-word {
+    width: 40%;
+    border-right: 1px solid #cacdce;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#nav-bar {
+    position: fixed;
+    top: 24px;
+    left: 20px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: transform 0.3s ease; 
+}
+
+/* a:hover {
+    transform: scale(1.1);
+} */
+
+.icons {
+    width: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #cacdce;
+    gap: 22px;
+}
+
+.size-6 {
+    width: 20px;
+    height: 20px;
+}
+
+.header2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 18px;
+}
+
+.avatar-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.headerS {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    background-color: #ffffff;
+    border-top: 1px solid #cacdce;
+    padding-left: 200px;
+}
+
+.headerS ul {
+    font-size: 12px;
+    gap: 40px;
 }
 
 /* main {
