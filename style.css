@@ -613,3 +613,30 @@ main {
     border: 1px solid black;
     font-size: 6px;
 }
+
+.middlecontent2Si {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.five {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.five h3 {
+    font-size: 17px;
+    color: #535760;
+    font-weight: 400;
+}
+
+.fivee {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 13px;
+}
+
