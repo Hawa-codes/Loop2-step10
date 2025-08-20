@@ -473,26 +473,26 @@ main {
     font-weight: 400;
 }
 
-ul {
+.two ul {
     width: 100%;
     display: flex;
     flex-direction: column;
-    /* list-style-type: disc; */
 }
 
-li {
+.two ul li {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex: 1;
+    gap: 100px;
 }
 
-li::before {
+.two ul li::before {
     content: "•"; 
     color: #000;
     font-weight: bold;
-    margin-right: 8px;
+    margin-right: 2px;
+    flex-shrink: 0;
 }
 
 .li1, .li2 {
@@ -502,6 +502,7 @@ li::before {
 }
 
 .microsoft-icon, .youtube-icon {
-    width: 30px;
-    height: 30px;
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
 }
