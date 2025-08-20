@@ -154,7 +154,6 @@ a {
 main {
     margin-top: 30px;
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: row;
 }
@@ -351,7 +350,7 @@ main {
 
 .middlecontent1F h2 {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .arowMC {
@@ -391,4 +390,43 @@ main {
 .mc1 span {
     font-size: 10px;
     color: #cacdce;
+}
+
+.middlecontent2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #cacdce;
+    margin-top: 20px;
+}
+
+.middlecontent2F {
+    width: calc(100% + 20px);
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-between;
+    border-bottom: 1px solid #cacdce;
+}
+
+.middlecontent2F h2 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.One {
+    display: flex;
+    flex-direction: row;
+    padding-top: 12px;
+    gap: 7px;
+}
+
+.document {
+    width: 20px;
+    height: 20px;
 }
