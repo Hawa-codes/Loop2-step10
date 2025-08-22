@@ -17,7 +17,7 @@ header {
     width: 100%;
     display: flex;
     flex-direction: column;
-    border-bottom: 1px solid #cacdce;
+    border-bottom: 1px solid #edf3f5;
 }
 
 .headerF {
@@ -33,7 +33,7 @@ header {
     justify-content: flex-end;
     padding: 18px;
     width: 18%;
-    border-right: 1px solid #cacdce;
+    border-right: 1px solid #edf3f5;
 }
 
 .linkedIn-icon {
@@ -46,20 +46,20 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-right: 1px solid #cacdce;
+    border-right: 1px solid #edf3f5;
 }
 
 .search-input {
     width: 120px;
     height: 20px;
-    border: 1px solid #cacdce;
+    border: 1px solid #edf3f5;
     border-radius: 7px;
     font-size: 12px;
 }
 
 .h-word {
     width: 40%;
-    border-right: 1px solid #cacdce;
+    border-right: 1px solid #edf3f5;
 }
 
 ul {
@@ -95,7 +95,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-right: 1px solid #cacdce;
+    border-right: 1px solid #edf3f5;
     gap: 22px;
 }
 
@@ -135,7 +135,7 @@ a {
     flex-direction: row;
     height: 30px;
     background-color: #ffffff;
-    border-top: 1px solid #cacdce;
+    border-top: 1px solid #edf3f5;
     padding-left: 200px;
 }
 
@@ -152,7 +152,7 @@ a {
 } */
 
 main {
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -165,7 +165,7 @@ main {
     align-items: center;
     flex-direction: column;
     background-color: #ffffff;
-    border: 1px solid #cacdce;
+    border: 1px solid #edf3f5;
 }
 
 .leftsidebar1 {
@@ -175,7 +175,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-bottom: 1px solid #cacdce;
+    border-bottom: 1px solid #edf3f5;
     gap: 6px;
 }
 
@@ -241,12 +241,12 @@ main {
     justify-content: space-around;
     width: 100%;
     height: 15%;
-    border-bottom: 1px solid #cacdce;
+    border-bottom: 1px solid #edf3f5;
     padding: 0 10px;
 }
 
 .firs {
-    border-right: 1px solid #cacdce;
+    border-right: 1px solid #edf3f5;
     padding: 15px;
 }
 
@@ -283,7 +283,7 @@ main {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    border-bottom: 1px solid #cacdce;
+    border-bottom: 1px solid #edf3f5;
     padding-left: 20px;
     padding-top: 10px;
 }
@@ -335,7 +335,7 @@ main {
     flex-direction: column;
     background-color: #ffffff;
     padding: 10px;
-    border: 1px solid #cacdce;
+    border: 1px solid #edf3f5;
 }
 
 .middlecontent1F {
@@ -345,7 +345,7 @@ main {
     flex-direction: row;
     /* align-items: center; */
     justify-content: space-between;
-    border-bottom: 1px solid #cacdce;
+    border-bottom: 1px solid #edf3f5;
 }
 
 .middlecontent1F h2 {
@@ -360,7 +360,7 @@ main {
     background-color: transparent;
     border-radius: 50%;
     color: #072a7d;
-    border: 1px solid #072a7d;
+    border: 1px solid black;
 }
 
 .article {
@@ -400,7 +400,7 @@ main {
     flex-direction: column;
     background-color: #ffffff;
     padding: 6px;
-    border: 1px solid #cacdce;
+    border: 1px solid #edf3f5;
     margin-top: 20px;
     gap: 10px;
 }
@@ -412,7 +412,7 @@ main {
     flex-direction: row;
     /* align-items: center; */
     justify-content: space-between;
-    border-bottom: 1px solid #cacdce;
+    border-bottom: 1px solid #edf3f5;
 }
 
 .middlecontent2F h2 {
@@ -640,3 +640,89 @@ main {
     gap: 13px;
 }
 
+.rightsidebar {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.rightsidebar h2 {
+    font-size: 16px;
+    color: #535760;
+    font-weight: 400;
+    padding-bottom: 12px;
+}
+
+.rightsidebar1{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-bottom: 30px;
+}
+
+.rightsidebar11, .rightsidebar12, .rightsidebar13 {
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+}
+
+.rightsidebar11 span, .rightsidebar12 span, .rightsidebar13 span {
+    font-size: 13px;
+    color: black;
+    font-weight: 500;
+}
+
+.rightsidebar11 p, .rightsidebar12 p, .rightsidebar13 p {
+    font-size: 12px;
+    color: #cacdce;
+}
+
+.rightsidebar2 {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.rightsidebar2 h3 {
+    font-size: 14px;
+    color: #535760;
+    font-weight: 400;
+    padding-bottom: 12px;
+}
+
+.avatar3-pic {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.rightsidebar21 span {
+    position: relative;
+    font-weight: bold;
+    gap: 100px;
+    top: -10px;
+}
+
+.rightsidebar22 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* justify-content: center; */
+    flex-direction: column;
+    bottom: 10px;
+    right: 20px;
+}
+
+.rightsidebar22 span {
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    padding-bottom: 3px;
+}
+
+.rightsidebar22 p {
+    font-size: 12px;
+    color: #9399a7;
+    font-weight: 400;
+}
