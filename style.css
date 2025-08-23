@@ -654,6 +654,77 @@ main {
     gap: 13px;
 }
 
+.middlecontent3 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid #edf3f5;
+    margin-top: 20px;
+}
+
+.middlecontent3F {
+    width: calc(100% + 20px);
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #edf3f5;
+}
+
+.middlecontent3F h2 {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.middlecontent3S {
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+    margin: 20px;
+}
+
+.mc3 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.mc3 h5 {
+    font-size: 13px;
+    font-weight: 400;
+    color: black;
+    border: 1px solid #edf3f5;
+    padding: 10px 17px; 
+    clip-path: polygon(
+    0 0, 100% 0, 100% 100%, 
+    20% 100%, 15% 110%, 10% 100%, 
+    0 100%
+  );
+}
+
+.mc3 p {
+    font-size: 13px;
+    color: black;
+    font-weight: 500;
+}
+
+.mc3 span {
+    font-size: 11px;
+    color: #cacdce;
+    display: flex;
+    align-items: center;
+}
+
+.mc3t {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
 .rightsidebar {
     display: flex;
     flex-direction: column;
