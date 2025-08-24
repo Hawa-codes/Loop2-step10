@@ -250,7 +250,7 @@ main {
     border: none;
     border-radius: 25px;
     cursor: pointer;
-    transition: 0.3s ease;
+    transition: 0.2s ease;
     width: 100px;
     height: 30px;
 }
@@ -264,10 +264,18 @@ main {
     border: 1px solid #5eb5e6;
     border-radius: 25px;
     cursor: pointer;
-    transition: 0.3s ease;
+    transition: 0.2s ease;
     width: 100px;
     height: 30px;
     gap: 4px;
+}
+
+ .follow-btn:hover { 
+    background-color: #2d9dde;
+}
+
+.connect-btn:hover {
+    background-color: #f1f8fb;
 }
 
 .arrow {
@@ -339,6 +347,10 @@ main {
 .leftsidebar3 a {
     font-size: 10px;
     color: #cacdce;
+}
+
+.leftsidebar3 a:hover {
+    text-decoration: underline;
 }
 
 .size-3 {
