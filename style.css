@@ -47,14 +47,25 @@ header {
     align-items: center;
     justify-content: center;
     border-right: 1px solid #edf3f5;
+    position: relative;
 }
 
 .search-input {
-    width: 120px;
-    height: 20px;
+    width: 130px;
+    height: 22px;
     border: 1px solid #edf3f5;
-    border-radius: 7px;
+    border-radius: 10px;
     font-size: 12px;
+    padding: 12px 40px 12px 12px;
+    outline: none;
+}
+
+.search-container .searchB {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
 }
 
 .h-word {
@@ -69,6 +80,11 @@ ul {
     justify-content: center;
     flex-direction: row;
     gap: 29px;
+    transition: transform 0.3s ease; 
+}
+
+li:hover {
+    transform: translateY(-1px);
 }
 
 #nav-bar ul {
@@ -104,16 +120,28 @@ a {
     height: 20px;
 }
 
+.searchB {
+    width: 16px;
+    height: 16px;
+}
+
 .message {
     color: #92dba8;
+    transition: transform 0.3s ease; 
 }
 
 .bell {
     color: #f1c40f;
+    transition: transform 0.3s ease; 
 }
 
 .person {
     color: #9b58b6;
+    transition: transform 0.3s ease; 
+}
+
+.message:hover, .bell:hover, .person:hover {
+    transform: translateY(-1px);
 }
 
 .header2 {
@@ -137,19 +165,32 @@ a {
     background-color: #ffffff;
     border-top: 1px solid #edf3f5;
     padding-left: 200px;
+    padding-top: 6px;
+    gap: 40px;
 }
 
-.headerS ul {
+.headerS span {
+    position: relative;
+    display: inline-block; 
+    cursor: pointer;
     font-size: 12px;
-    gap: 40px;
     color: #535760;
 }
 
-/* .underline {
-    border-bottom: 3px solid #5eb5e6;
-    display: inline-block;
-    padding-bottom: -4px;
-} */
+.headerS span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 1px; 
+    width: 0%;
+    height: 2px; 
+    background: #5eb5e6;
+    /* transition: width 0.3s ease; */
+}
+
+.headerS span:hover::after {
+    width: 100%;
+}
 
 main {
     margin-top: 20px;
@@ -474,6 +515,47 @@ main {
     display: flex;
     flex-direction: column;
     gap: 2px;
+}
+
+.linee {
+    flex: 1;                      
+    height: 1px;                  
+    background-color: #ffffff;    
+    position: relative;           
+}
+
+.linee {
+    flex: 1;
+    height: 2px;
+    background: linear-gradient(
+        to right,
+        rgb(44, 4, 4) 0%,    
+        rgb(88, 2, 2) 30%,    
+        rgba(43, 9, 9, 0.6) 30%,  
+        rgba(82, 10, 10, 0.6) 100%  
+    );
+    position: relative;
+    border-radius: 5px;
+}
+
+.linee::before,
+.linee::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #fff; 
+}
+
+.linee::before {
+    left: -4px;
+}
+
+.linee::after {
+    right: -4px;
 }
 
 .ttwo section {
