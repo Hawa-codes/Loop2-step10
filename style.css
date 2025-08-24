@@ -420,13 +420,14 @@ main {
 }
 
 .One {
+    width: 100%;
     display: flex;
     flex-direction: row;
     padding: 0px 9px;
     gap: 8px;
 }
 
-.document {
+.document, .briefcase, .bulb, .star, .building {
     width: 20px;
     height: 20px;
 }
@@ -456,11 +457,6 @@ main {
     padding: 0px 9px;
 }
 
-.briefcase {
-    width: 20px;
-    height: 20px;
-}
-
 .two {
     display: flex;
     flex-direction: column;
@@ -473,40 +469,28 @@ main {
     font-weight: 400;
 }
 
-.two ul {
+.ttwo {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-right: 9px;
+    gap: 2px;
 }
 
-.two ul li {
+.ttwo section {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    gap: 180px;
+    gap: 200px;
+    padding-left: 17px;
 }
 
-.two ul li a, .three ul li a {
+.li1 a, .li2 a {
     color: #2656c6;
 }
 
-.two ul li a:hover, .three ul li a:hover {
+.li1 a:hover, .li2 a:hover {
     text-decoration: underline;
-}
-
-/* .two ul li::before {
-    content: "•"; 
-    color: #000;
-    font-weight: bold;
-    margin-right: 2px;
-    flex-shrink: 0;
-} */
-
-.li1, .li2 {
-    gap: 4px;
 }
 
 .spaan1 {
@@ -522,6 +506,7 @@ main {
 .li1, .li2 {
     display: flex;
     flex-direction: column;
+    gap: 4px;
 }
 
 .microsoft-icon, .youtube-icon {
@@ -540,6 +525,7 @@ main {
     display: flex;
     flex-direction: row;
     gap: 8px;
+    padding: 0px 9px;
 }
 
 .three {
@@ -554,38 +540,34 @@ main {
     font-weight: 400;
 }
 
-.three ul {
+.three section {
     width: 100%;
     display: flex;
     flex-direction: column;
+    gap: 15px;
 }
-
-.three ul li {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 100px;
-}
-
-/* .three ul li::before {
-    color: #000;
-    font-weight: bold;
-    margin-right: 2px;
-    flex-shrink: 0;
-} */
 
 .li3, .li4 {
     display: flex;
     flex-direction: column;
-    /* gap: 4px; */
+    gap: 4px;
+    padding-left: 22px;
+}
+
+.li3 a {
+    color: #2656c6;
+}
+
+.li3 a:hover {
+    text-decoration: underline;
 }
 
 .middlecontent2Fi {
     width: 100%;
     display: flex;
     flex-direction: row;
-    gap: 8px;
+    gap: 6px;
+    padding: 0px 9px;
 }
 
 .four {
@@ -633,6 +615,8 @@ main {
     display: flex;
     flex-direction: row;
     gap: 8px;
+    margin-bottom: 20px;
+    padding: 0px 9px; /* f1f1f1*/
 }
 
 .five {
@@ -652,6 +636,12 @@ main {
     flex-direction: row;
     justify-content: space-between;
     gap: 13px;
+}
+
+.fivee span {
+    font-size: 11px;
+    background-color: #f1f1f1;
+    padding: 5px;
 }
 
 .middlecontent3 {
