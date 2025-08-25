@@ -544,45 +544,25 @@ main {
     gap: 2px;
 }
 
-.linee {
-    flex: 1;                      
-    height: 1px;                  
-    background-color: #ffffff;    
-    position: relative;           
-}
-
-.linee {
-    flex: 1;
-    height: 2px;
-    background: linear-gradient(
-        to right,
-        rgb(44, 4, 4) 0%,    
-        rgb(88, 2, 2) 30%,    
-        rgba(43, 9, 9, 0.6) 30%,  
-        rgba(82, 10, 10, 0.6) 100%  
-    );
-    position: relative;
-    border-radius: 5px;
-}
-
-.linee::before,
-.linee::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 8px;
+.circle {
     height: 8px;
+    width: 8px;
     border-radius: 50%;
-    background: #fff; 
+    border: 1px solid #dedede;
+}
+    
+.line5 {
+    background-color: #c9c8c8;
+    height: 67px;
+    width: 1px;
+    position: relative;
+    left: 3px;
 }
 
-.linee::before {
-    left: -4px;
-}
-
-.linee::after {
-    right: -4px;
+.twoline {
+    display: flex;
+    flex-direction: row;
+    gap: -3px;
 }
 
 .ttwo section {
@@ -591,7 +571,7 @@ main {
     flex-direction: row;
     justify-content: space-between;
     gap: 200px;
-    padding-left: 17px;
+    padding-left: 10px;
 }
 
 .li1 a, .li2 a {
@@ -660,7 +640,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 4px;
-    padding-left: 22px;
+    padding-left: 10px;
 }
 
 .li3 a {
@@ -677,6 +657,8 @@ main {
     flex-direction: row;
     gap: 6px;
     padding: 0px 9px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .four {
@@ -798,7 +780,7 @@ main {
     padding: 10px;
 }
 
-.arrow {
+.arroow {
     width: 25px;
     height: 25px;
     padding: 7px;
@@ -811,7 +793,7 @@ main {
     margin-top: 7px;    
 }
 
-.arrow:hover {
+.arroow:hover {
     animation: pulse 0.5s;
 }
 
@@ -885,7 +867,7 @@ main {
 
 .middlecontent4 {
     width: 100%;
-    height: 270px;
+    height: 275px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -932,7 +914,7 @@ main {
 }
 
 .icons4 {
-    width: 100px;
+    width: 120px;
     height: 70px;
     object-fit: contain;
     border: 1px solid #dcdfe0;
@@ -962,6 +944,31 @@ main {
 
 .mc4sa:hover {
     text-decoration: underline;
+}
+
+.buutton {
+    margin-right: auto;
+    padding-left: 25px;
+    cursor: pointer;
+}
+
+.seeAll-btn {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px;
+    background: #ffffff;
+    color: #5eb5e6;
+    border: 1px solid #5eb5e6;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    width: 120px;
+    height: 32px;
+    gap: 4px;
+}
+
+.seeAll-btn:hover {
+    background-color: #f1f8fb;
 }
 
 .rightsidebar {
