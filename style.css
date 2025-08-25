@@ -850,7 +850,7 @@ main {
   left: -1px;
   bottom: -26px;
   border-style: solid;
-  border-width: 26px 24px 0 0;  
+  border-width: 26px 24px 0 0px;  
   border-color: #dcdfe0 transparent transparent transparent;
 } 
 
@@ -860,7 +860,7 @@ main {
   left: -1px;
   bottom: -25px;
   border-style: solid;
-  border-width: 24px 22px 0 0;
+  border-width: 24px 22px 0 1px;
   border-color: #ffffff transparent transparent transparent;
 }
 
