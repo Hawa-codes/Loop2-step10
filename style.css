@@ -417,10 +417,12 @@ main {
     transition: 0.2s ease;
 }
 
-.arrowMC:hover {
-    background: transparent; 
-    border: 1px solid black;
-    color: #fff;
+.arowMC:hover {
+    animation: pulse 0.5s;
+}
+
+@keyframes pulse {
+    50% { transform: scale(1.1); }
 }
 
 .article {
@@ -772,7 +774,7 @@ main {
 
 .middlecontent3 {
     width: 100%;
-    height: 350px;
+    height: 340px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -796,6 +798,27 @@ main {
     padding: 10px;
 }
 
+.arrow {
+    width: 25px;
+    height: 25px;
+    padding: 7px;
+    background-color: transparent;
+    border-radius: 50%;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 0.2s ease;
+    margin-top: 7px;    
+}
+
+.arrow:hover {
+    animation: pulse 0.5s;
+}
+
+@keyframes pulse {
+    50% { transform: scale(1.1); }
+}
+
 .middlecontent3S {
     display: flex;
     flex-direction: row;
@@ -804,41 +827,60 @@ main {
 }
 
 .mc3 {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
 }
 
 .mc3 h5 {
-    font-size: 13px;
-    font-weight: 400;
-    color: black;
-    border: 1px solid #dcdfe0;
-    padding: 10px 17px; 
-    /* clip-path: polygon(
-    0 0, 100% 0, 100% 100%, 
-    20% 100%, 15% 110%, 10% 100%, 
-    0 100%
-  ); */
+  font-size: 13px;
+  font-weight: 400;
+  color: #000;
+  background: #fff;
+  border: 1px solid #dcdfe0;
+  padding: 12px 16px;
+  position: relative;   
+  display: inline-block;
+  margin-bottom: 18px;  
 }
 
-.mc3 p {
-    font-size: 13px;
-    color: black;
-    font-weight: 500;
+.mc3 h5::before {
+  content: "";
+  position: absolute;
+  left: -1px;
+  bottom: -26px;
+  border-style: solid;
+  border-width: 26px 24px 0 0;  
+  border-color: #dcdfe0 transparent transparent transparent;
+} 
+
+.mc3 h5::after {
+  content: "";
+  position: absolute;
+  left: -1px;
+  bottom: -25px;
+  border-style: solid;
+  border-width: 24px 22px 0 0;
+  border-color: #ffffff transparent transparent transparent;
 }
 
-.mc3 span {
-    font-size: 11px;
-    color: #cacdce;
-    display: flex;
-    align-items: center;
+.mc3t { 
+    display: flex; 
+    flex-direction: row; 
+    gap: 10px; 
 }
 
-.mc3t {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
+.mc3 p { 
+    font-size: 13px; 
+    color: black; 
+    font-weight: 500; 
+} 
+
+.mc3 span { 
+    font-size: 11px; 
+    color: #cacdce; 
+    display: flex; 
+    align-items: center; 
 }
 
 .middlecontent4 {
