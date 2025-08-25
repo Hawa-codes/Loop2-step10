@@ -84,7 +84,7 @@ ul {
 }
 
 li:hover {
-    transform: translateY(-1px);
+    transform: translateY(-1.5px);
 }
 
 #nav-bar ul {
@@ -97,10 +97,6 @@ a {
     transition: transform 0.3s ease; 
     font-size: 14px;
 }
-
-/* a:hover {
-    transform: scale(1.1);
-} */
 
 .colored {
     color: #f78c8e;
@@ -141,7 +137,7 @@ a {
 }
 
 .message:hover, .bell:hover, .person:hover {
-    transform: translateY(-1px);
+    transform: translateY(-1.5px);
 }
 
 .header2 {
