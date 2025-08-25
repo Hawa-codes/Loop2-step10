@@ -413,6 +413,14 @@ main {
     border-radius: 50%;
     color: black;
     border: 1px solid black;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.arrowMC:hover {
+    background: transparent; 
+    border: 1px solid black;
+    color: #fff;
 }
 
 .article {
@@ -431,6 +439,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    cursor: pointer;
 }
 
 .mc1 p {
@@ -442,6 +451,10 @@ main {
 .mc1 span {
     font-size: 10px;
     color: #cacdce;
+}
+
+.mc1:hover .mc1t p {
+    text-decoration: underline;
 }
 
 .middlecontent2 {
@@ -675,6 +688,7 @@ main {
     flex-direction: row;
     justify-content: space-between;
     gap: 6px;
+    padding-bottom: 5px;
 }
 
 .fourr {
@@ -684,24 +698,42 @@ main {
     gap: 130px;
 }
 
+.fouur p {
+    font-size: 14px;
+    color: #2e3036;
+    padding-top: 5px;
+    padding-left: 9px;
+}
+
+.foouur {
+    display: flex;         
+    align-items: center; 
+    gap: 8px;
+}
+
 .fouur1 {
     width: 25px;
     height: 25px;
-    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: transparent;
     border-radius: 50%;
     border: 1px solid black;
-    font-size: 14px;
+    font-size: 11px;
 }
 
 .fouur2 {
     width: 35px;
     height: 35px;
-    padding: 7px;
+    /* padding: 7px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #f1f1f1;
     border-radius: 50%;
-    border: 1px solid black;
-    font-size: 6px;
+    font-size: 8px;
+    font-weight: bold;
 }
 
 .middlecontent2Si {
